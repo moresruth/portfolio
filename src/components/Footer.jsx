@@ -18,13 +18,13 @@ const Footer = () => {
             href="https://www.linkedin.com/in/ruthantonettemores/"
             target="_blank"
           >
-            <BsLinkedin className="text-[25px] sm:mx-2 hover:text-indigo-900" />
+            <BsLinkedin className="text-[25px] mx-2 hover:text-indigo-900" />
           </a>
           <a href="https://github.com/moresruth" target="_blank">
-            <BsGithub className="text-[25px] sm:mx-2 hover:text-indigo-900" />
+            <BsGithub className="text-[25px] mx-2 hover:text-indigo-900" />
           </a>
           <a href="https://www.behance.net/rmmors" target="_blank">
-            <BsBehance className="text-[25px] sm:mx-2 hover:text-indigo-900" />
+            <BsBehance className="text-[25px] mx-2 hover:text-indigo-900" />
           </a>
         </div>
       </div>

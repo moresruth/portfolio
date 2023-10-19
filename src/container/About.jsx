@@ -1,13 +1,18 @@
 import React from "react";
 import styles, { layout } from "./../styles";
 import { logo, profile } from "../assets";
-import { SectionTitle, TechStack } from "../components";
+import { FloatCard, SectionTitle, TechStack } from "../components";
 
 const About = () => {
   return (
     <section id="about" className={`${layout.section} sm:${layout.flexOnSM}`}>
       <div className={`${layout.HalfContainer} ${styles.flexCenter}`}>
-        <img src={profile} alt="" />
+        <img
+          src={profile}
+          alt=""
+          className="border-8 border-[#1B1F62] rounded-full"
+        />
+        <FloatCard />
       </div>
       <div className={`${layout.HalfContainer} sm:mt-[5rem]`}>
         <SectionTitle title="| About Me" />
