@@ -12,3 +12,9 @@ body {
   color: #fff;
   background-color: #03001e;
 }
+
+.bg-home-gradient {
+  background: linear-gradient(180deg, #187aff -1.06%, #b362ff 75.18%);
+  filter: blur(300px);
+  -webkit-filter: blur(300px);
+}
