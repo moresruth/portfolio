@@ -8,7 +8,7 @@ const Experience = () => {
     <section id="experience" className={`${layout.section} sm:pt-[8rem]`}>
       <SectionTitle title="| Experience" />
 
-      <div className={`${layout.fullContainer} `}>
+      <div className={`${layout.fullContainer} mt-5 `}>
         {works.map((work, index) => (
           <div
             key={work.id}
