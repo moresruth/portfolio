@@ -16,7 +16,7 @@ const About = () => {
       </div>
       <div className={`${layout.HalfContainer} sm:mt-[5rem]`}>
         <SectionTitle title="| About Me" />
-        <p className={`${styles.paragraph}`}>Hello! I'am ...</p>
+        <p className={`${styles.paragraph}`}>Hello! I am ...</p>
         <h2 className={`${styles.heading2}`}>Ruth Antonette Mores</h2>
         <p className={`${styles.paragraph}`}>
           I am a self-taught frontend developer and UI designer. I enjoy making
