@@ -38,7 +38,7 @@ export const navLinks = [
     {
       id: "project-2",
       content:
-        "DigitalVivid is a modern NFT landing page I designed and developed to level up my front-end skills. This one-page website works fully responsive on all devices.",
+        "SushiMaster is a landing page I designed and developed to level up my front-end skills. This one-page website works fully responsive on all devices.",
       name: "SushiMaster Website",
       tech1: figma ,
       tech2: tailwind,
